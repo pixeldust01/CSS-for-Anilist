@@ -10,7 +10,7 @@ p {
 
 /* Background image (change the URL to change the image) */
 body {
-    background: rgb(var(--color-background)) url("https://i.imgur.com/H9bFLyd.png") center/100% fixed;
+    background: rgb(var(--color-background)) url("https://i.imgur.com/TU1Umee.png") center/100% fixed;
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
