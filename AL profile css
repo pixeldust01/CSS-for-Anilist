@@ -42,11 +42,11 @@ body {
 
 /* favourites section hover - it scales! */
 .favourite:hover {
-    transform: scale(1.4); 
+    transform: scale(1.2); 
     transform-origin: top; 
     position: relative;
     z-index: 3;
-    transition: 0.5s;
+    transition: 0.3s;
     transform-style: preserve-3d;
 }
 
