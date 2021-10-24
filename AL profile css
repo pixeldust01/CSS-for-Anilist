@@ -3,6 +3,12 @@ h1 {
    font-size: 28px !important;
 }
 
+h2 {
+    font-family: trebuchet ms, noto;
+    color: rgba(255,255,240,0.8);
+    font-weight: bold;
+}
+
 p {
     font-family: Trebuchet MS;
     font-size: 14px;
@@ -24,13 +30,6 @@ body {
 .banner .shadow{
     background: none !important;
 }
-
-/*div.activity-history {
-    font-family: trebuchet ms, noto;
-    color: rgba(255,255,240,0.8);
-    font-weight: bold;
-}  
-HEEEEEEEEERRRRREEEEEEEEE*/ 
 
 .activity-message .text {
   border-left: solid 3px #00bfa8 ; 
@@ -54,7 +53,7 @@ HEEEEEEEEERRRRREEEEEEEEE*/
     position: relative;
     z-index: 3;
     transition: 0.3s;
-    transform-style: preserve-3d;
+    transform-style: initial;
 }
 
 /*  favourites section wrapping */
@@ -205,6 +204,10 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
     transform: scale(2.5) !important; 
     transition: transform 0.3s; 
     transform-style: preserve-3d;
+}
+
+div.overview {
+    background-color: rgba(0,0,,0,0.9);
 }
 
 /* Adds a fixed image to the bottom-right hand corner of the screen. Note: This image cannot be resized, make sure you resize the image before using it*/
