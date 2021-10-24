@@ -25,6 +25,13 @@ body {
     background: none !important;
 }
 
+/*div.activity-history {
+    font-family: trebuchet ms, noto;
+    color: rgba(255,255,240,0.8);
+    font-weight: bold;
+}  
+HEEEEEEEEERRRRREEEEEEEEE*/ 
+
 .activity-message .text {
   border-left: solid 3px #00bfa8 ; 
 }
@@ -57,6 +64,12 @@ body {
 .favourites-wrap.staff,
 .favourites-wrap.studios {
     overflow: visible;
+}
+
+h2.section-header {
+    font-family: trebuchet ms, noto;
+    color: rgba(255,255,240,0.8);
+    font-size: 16px;
 }
 
 /* About section scrollbar */
