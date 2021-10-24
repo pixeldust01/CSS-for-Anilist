@@ -196,7 +196,7 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
 
 /* Adds a fixed image to the bottom-right hand corner of the screen. Note: This image cannot be resized, make sure you resize the image before using it*/
 #nav::after {
-    content: url(https://i.imgur.com/WIsh1x7.png);
+    content: url(https://i.imgur.com/hLGhizL.png);
     object-position: bottom left;
     position: fixed;
     bottom: 0; right: 0;
