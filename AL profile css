@@ -87,7 +87,7 @@ body {
 /* Horizontal rule border settings */
 .markdown hr {
     border: solid 1.4px #4DAA22;
-    border-radius: 1px;
+    border-radius: 2px;
 }
 
 /* Blockquotes*/
