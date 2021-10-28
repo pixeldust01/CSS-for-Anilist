@@ -21,12 +21,13 @@ body {
     background-size: cover !important;
 }
 
-/* Transparent banner - use together with background image */
+/* Banner - use together with background image */
 .banner {
     background-image: none !important;
     background-color: rgba(36, 37, 56,0) !important;
     height: auto !important;
 }
+
 .banner .shadow{
     background: none !important;
 }
