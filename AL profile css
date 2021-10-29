@@ -1,6 +1,7 @@
 h1 {
    font-family: gabriola, noto, trebuchet ms !important;
    font-size: 28px !important;
+   font-weight: bold;
 }
 
 h2 {
