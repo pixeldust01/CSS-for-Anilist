@@ -78,6 +78,10 @@ h2.section-header {
     scrollbar-width: thin;
 }
 
+.user .about > div.content-wrap {
+    background-color: rgba(21,31,46,1);
+}
+
 /* Profile activity (status/messages/list) Makes border corners rounded. Also required as bugfix for .avatar hover! */
 .wrap,
 .reply {
