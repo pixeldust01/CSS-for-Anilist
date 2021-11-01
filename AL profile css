@@ -18,14 +18,12 @@ p {
 * {
   cursor: url(https://i.imgur.com/cn2zbB2.png), auto;
 }
-
 a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
   cursor: url(https://i.imgur.com/dX5hqN6.png), auto;
 }
-
 a, a:link img {
   cursor: url(https://i.imgur.com/dX5hqN6.png), auto !important;
-}                       /*HEEEEERRRREEE*/
+}                    
 
 /* Background image (change the URL to change the image) */
 body {
