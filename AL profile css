@@ -7,7 +7,6 @@ h1 {
 h2 {
     font-family: trebuchet ms, noto;
     color: rgba(255,255,240,0.8);
-    font-weight: bold;
 }
 
 p {
@@ -15,6 +14,7 @@ p {
     font-size: 14px;
 }
 
+/*Cursor*/
 * {
   cursor: url(https://i.imgur.com/cn2zbB2.png), auto;
 }
@@ -42,6 +42,36 @@ body {
 .banner .shadow{
     background: none !important;
 }
+
+/* changes the top navbar */
+
+/*HEEEEERRRRREEEEEE*/
+#nav {
+  background: rgba(21,31,46,0.9) !important;
+  border-radius: 0 20px 20px 0;
+  left: /*calc((100% - 80%) / 2)*/ 10%;
+  width: 80%;
+  justify-content: center;
+  transition: background 0.5s ease 0s, top 0.5s ease 0s !important;
+  backdrop-filter: blur(4px);
+  height: 60px;
+}
+
+/* search section fix(only use with the code above) */
+.quick-search.visible {
+  left: auto;
+}
+
+/* nav buttons hover */
+#nav .link {
+  transition: transform 0.69s ease-in-out;
+}
+
+#nav .link:hover {
+  transform: scale(1.2);
+  color: #4ABD4E
+}  /*HEEEEERRRRREEEEEE*/
+
 
 .activity-message .text {
   border-left: solid 3px #00bfa8 ; 
@@ -87,15 +117,29 @@ h2.section-header {
     background-color: rgba(21,31,46,1);
 }
 
-/* About section scrollbar */
+/* About section scrollbar
 .user .about {
     scrollbar-width: 0 !important;
-}                     /* HEEEERRRRRRREEEE */
+} */
 
+.section-header[data-v-09492909]::before {
+  transition: transform .7s ease-in-out;
+  visibility: visible;
+  content: "Inori's";
+  color: rgba(255,255,240,0.8);
+}
 
-/* Profile activity (status/messages/list) Makes border corners rounded. Also required as bugfix for .avatar hover! */
-.wrap,
-.reply {
+.activity-markdown:after {
+  content: "(◕‿◕✿)                   ";
+  white-space: pre-wrap;
+  font-family: trebuchet ms !important;
+  justify-content: flex-end;
+  display: flex;
+  color: #67db6a;
+}
+
+/* Profile activity (status/messages/list) Makes border corners rounded. */
+.wrap, .reply {
     font-family: Trebuchet MS;
     font-size: 20px;
     border-bottom-right-radius: 20px !important;
@@ -156,6 +200,22 @@ html {
   background: #479920;
 }
 
+/* hide about section scrollbar */
+.about .content-wrap[data-v-5c30286e]::-webkit-scrollbar {
+  background-color: rgba(255, 255, 255, 0);
+  width: 4px
+}
+
+.about .content-wrap[data-v-5c30286e]::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.about .content-wrap[data-v-5c30286e]::-webkit-scrollbar-thumb {
+  background-color: rgba(196, 196, 240, 0.20);
+  border-radius: 10px;
+}
+
+
 /* Modifies load-more button */
 .load-more {
     border-bottom-right-radius: 30px !important;
@@ -165,7 +225,7 @@ html {
     font-family: trebuchet ms !important;
     font-size: 15px !important;
     margin: auto !important;
-    max-width: 400px !important;
+    max-width: 200px !important;
 }
 
 /* Changes "Overview/Anime List/Manga List..." nav section. - shorter navbar*/
@@ -175,6 +235,11 @@ html {
     margin: 0 auto !important;
     border-top-right-radius: 30px !important;
     border-bottom-right-radius: 30px !important;
+}
+
+.nav-wrap .link:hover {
+    transform: scales(1.2);
+    color: #93d89a;
 }
 
 img.avatar,
@@ -227,13 +292,14 @@ div.overview {
     background-color: rgba(0,0,,0,0.9);
 }
 
-/* Adds a fixed image to the bottom-right hand corner of the screen. Note: This image cannot be resized, make sure you resize the image before using it*/
+/* Adds a fixed image to the bottom-right hand corner of the screen. Note: This image cannot be resized, make sure you resize the image before using it
 #nav::after {
     content: url(https://i.imgur.com/hLGhizL.png);
     object-position: bottom left;
     position: fixed;
-    bottom: 0; right: 0;
-}
+    bottom: 0; 
+    right: 0;
+} */
 
 /* Mobile (small screen size) only: */
 @media (max-width: 760px) {
