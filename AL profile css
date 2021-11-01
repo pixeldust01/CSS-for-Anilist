@@ -15,19 +15,17 @@ p {
     font-size: 14px;
 }
 
-/* .customPointer {
-   width:12px; 
-   height:12px; 
-   background:#AAC; 
-   border-top:1px solid #557; 
-   border-left:1px solid #557; 
-   border-radius:Opx 6px 6px 6px; 
-   box-shadow:0 5px #000; 
-   display:none; 
-   top:51px; 
-   left:51px; 
-   z-index: 99999999999999999;
-} */
+* {
+  cursor: url(https://i.imgur.com/cn2zbB2.png), auto;
+}
+
+a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
+  cursor: url(https://i.imgur.com/dX5hqN6.png), auto;
+}
+
+a, a:link img {
+  cursor: url(https://i.imgur.com/dX5hqN6.png), auto !important;
+}                       /*HEEEEERRRREEE*/
 
 /* Background image (change the URL to change the image) */
 body {
