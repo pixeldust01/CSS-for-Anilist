@@ -135,7 +135,7 @@ h2.section-header {
   font-family: trebuchet ms !important;
   justify-content: flex-end;
   display: flex;
-  color: #67db6a;
+  color: #8DCC91;
 }
 
 /* Profile activity (status/messages/list) Makes border corners rounded. */
@@ -202,17 +202,15 @@ html {
 
 /* hide about section scrollbar */
 .about .content-wrap[data-v-5c30286e]::-webkit-scrollbar {
-  background-color: rgba(255, 255, 255, 0);
-  width: 4px
+  width: 0px !important;
 }
 
 .about .content-wrap[data-v-5c30286e]::-webkit-scrollbar-track {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(0,0,0,0);
 }
 
 .about .content-wrap[data-v-5c30286e]::-webkit-scrollbar-thumb {
-  background-color: rgba(196, 196, 240, 0.20);
-  border-radius: 10px;
+  background-color: rgba(0,0,0,0);
 }
 
 
