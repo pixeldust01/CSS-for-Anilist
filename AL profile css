@@ -15,6 +15,20 @@ p {
     font-size: 14px;
 }
 
+/* .customPointer {
+   width:12px; 
+   height:12px; 
+   background:#AAC; 
+   border-top:1px solid #557; 
+   border-left:1px solid #557; 
+   border-radius:Opx 6px 6px 6px; 
+   box-shadow:0 5px #000; 
+   display:none; 
+   top:51px; 
+   left:51px; 
+   z-index: 99999999999999999;
+} */
+
 /* Background image (change the URL to change the image) */
 body {
     background: rgb(var(--color-background)) url("https://i.imgur.com/TU1Umee.png") center/100% fixed;
@@ -55,7 +69,7 @@ body {
     position: relative;
     z-index: 3;
     transition: 0.3s;
-    transform-style: initial;
+    transform-style: inherit;
 }
 
 /*  favourites section wrapping */
@@ -73,14 +87,15 @@ h2.section-header {
     font-size: 16px;
 }
 
-/* About section scrollbar */
-.user .about > div.content-wrap:hover {
-    scrollbar-width: thin;
-}
-
 .user .about > div.content-wrap {
     background-color: rgba(21,31,46,1);
 }
+
+/* About section scrollbar */
+.user .about {
+    scrollbar-width: 0 !important;
+}                     /* HEEEERRRRRRREEEE */
+
 
 /* Profile activity (status/messages/list) Makes border corners rounded. Also required as bugfix for .avatar hover! */
 .wrap,
