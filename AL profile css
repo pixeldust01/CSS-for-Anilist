@@ -14,7 +14,7 @@ p {
     font-size: 14px;
 }
 
-/*Cursor*/
+/* Cursor */
 * {
   cursor: url(https://i.imgur.com/cn2zbB2.png), auto;
 }
@@ -46,9 +46,9 @@ body {
 /* changes the top navbar */
 #nav {
   background: rgba(21,31,46,0.9) !important;
-  border-radius: 0 20px 20px 0;
-  width: 90%; 
-  right: 10%;
+  border-radius: 0 0 40px 40px;
+  width: 80%; 
+  left: 10%;
   justify-content: center;
   transition: background 0.5s ease 0s, top 0.5s ease 0s !important;
   /* backdrop-filter: blur(4px); */
@@ -63,7 +63,7 @@ body {
 /* nav buttons hover */
 #nav .link {
   transition: transform 0.69s ease-in-out;
-} /* --------------------- */
+} 
 
 #nav .link:hover {
   transform: scale(1.2);
@@ -72,12 +72,16 @@ body {
 
 
 .activity-message .text {
-  border-left: solid 3px #00bfa8 ; 
+  border-left: solid 4px #00bfa8 ; 
 }
 
 .activity-text .text {
-  border-left: solid 3px #1AC100; 
+  border-left: solid 4px #1AC100; 
 }
+
+div.list.small {
+    border-bottom: solid 4px rgba(98,168,0,0.5); 
+} 
 
 /* favourites section */
 .favourite {
@@ -105,28 +109,28 @@ body {
     overflow: visible;
 }
 
-h2.section-header {
-    font-family: trebuchet ms, noto;
-    color: rgba(255,255,240,0.8);
-    font-size: 16px;
-}
-
 .user .about > div.content-wrap {
     background-color: rgba(21,31,46,1);
     max-height: none !important;
 }
 
-.section-header::before {
+.section-header[data-v-09492909]::before {
   transition: transform .7s ease-in-out;
   visibility: visible;
-  content: "Inori's";
+  content: "Inori's  ";
   color: rgba(255,255,240,0.8);
+}
+
+.section-header::after {
+  transition: transform .7s ease-in-out;
+  visibility: visible;
+  content: "  ✿ ";
+  color: rgba(255,255,240,0.8); 
 }
 
 .activity-markdown:after {
   content: "(◕‿◕✿)                   ";
   white-space: pre-wrap;
-  font-family: trebuchet ms !important;
   justify-content: flex-end;
   display: flex;
   color: #8DCC91;
@@ -137,8 +141,6 @@ h2.section-header {
     font-family: Trebuchet MS;
     font-size: 20px;
     border-bottom-right-radius: 20px !important;
-    border-top-right-radius: 20px !important;
-    overflow: visible !important;
 }
 
 /* Anime/manga displaying rounded corners, part 2 */
@@ -151,7 +153,7 @@ h2.section-header {
     border-top-right-radius: 20px !important;
 }
 
-8* --------------------- */
+/* --------------------- */
 .stats-wrap {
   display: grid;
   grid-auto-flow: row;
@@ -159,7 +161,7 @@ h2.section-header {
   grid-template-columns: auto auto;
   padding: 20px 40px;
   text-align: left;
-  background: rgb(0,0,0);
+  background: rgb(0,0,0,0); 
 }
 
 .stat:nth-child(1) {
@@ -187,7 +189,7 @@ h2.section-header {
   -webkit-mask-size: cover;
   width: 19px;
   height: 16px;
-  margin-right: 5px;
+  margin-right: 0.5px;
   background-color: rgba(var(--color-text-light));
 }
 
@@ -196,7 +198,7 @@ h2.section-header {
   align-items: center;
   color: rgb(var(--color-text-light));
   margin-right: 33px;
-  margin-left: 9px;
+  margin-left: 2px;
 }
 
 .list-stats:nth-child(2) .stat:nth-child(1) .label:before {
@@ -304,10 +306,14 @@ html {
     border-bottom-right-radius: 30px !important;
 } 
 
+#nav-wrap .link {
+    transition: transform 0.69s ease-in-out;
+}
+
 #nav-wrap .link:hover {
     transform: scales(1.2);
     color: #93d89a;
-} /* --------------------- */
+}   /* ------------------------------ */
 
 img.avatar,
 h1.name {
@@ -401,4 +407,3 @@ div.overview {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.0);
     background-color: rgba(16, 24, 35, 0.0);
 } 
-
