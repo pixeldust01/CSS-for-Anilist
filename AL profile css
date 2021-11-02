@@ -44,16 +44,14 @@ body {
 }
 
 /* changes the top navbar */
-
-/*HEEEEERRRRREEEEEE*/
 #nav {
   background: rgba(21,31,46,0.9) !important;
   border-radius: 0 20px 20px 0;
-  left: /*calc((100% - 80%) / 2)*/ 10%;
-  width: 80%;
+  width: 90%; 
+  right: 10%;
   justify-content: center;
   transition: background 0.5s ease 0s, top 0.5s ease 0s !important;
-  backdrop-filter: blur(4px);
+  /* backdrop-filter: blur(4px); */
   height: 60px;
 }
 
@@ -65,12 +63,12 @@ body {
 /* nav buttons hover */
 #nav .link {
   transition: transform 0.69s ease-in-out;
-}
+} /* --------------------- */
 
 #nav .link:hover {
   transform: scale(1.2);
   color: #4ABD4E
-}  /*HEEEEERRRRREEEEEE*/
+}
 
 
 .activity-message .text {
@@ -87,7 +85,7 @@ body {
     border-radius: 20%;
     position: static;
 }
-
+ 
 /* favourites section hover - it scales! */
 .favourite:hover {
     transform: scale(1.2); 
@@ -118,12 +116,7 @@ h2.section-header {
     max-height: none !important;
 }
 
-/* About section scrollbar
-.user .about {
-    scrollbar-width: 0 !important;
-} */
-
-.section-header[data-v-09492909]::before {
+.section-header::before {
   transition: transform .7s ease-in-out;
   visibility: visible;
   content: "Inori's";
@@ -158,6 +151,95 @@ h2.section-header {
     border-top-right-radius: 20px !important;
 }
 
+8* --------------------- */
+.stats-wrap {
+  display: grid;
+  grid-auto-flow: row;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto;
+  padding: 20px 40px;
+  text-align: left;
+  background: rgb(0,0,0);
+}
+
+.stat:nth-child(1) {
+  grid-row-start: span 2;
+}
+
+.stat:nth-child(1) .value {
+  font-size: 5.5rem;
+}
+
+.stat .value {
+  font-size: 2rem;
+  padding-bottom: 0px;
+}
+
+.stat .label {
+  font-size: 1.2rem;
+}
+
+.list-stats:nth-child(1) .stat:nth-child(1) .label:before {
+  content: '';
+  mask: url(https://criolaservice.by/AL-css/svg/tv.svg) no-repeat 50% 50%;
+  -webkit-mask: url(https://criolaservice.by/AL-css/svg/tv.svg) no-repeat 50% 50%;
+  mask-size: cover;
+  -webkit-mask-size: cover;
+  width: 19px;
+  height: 16px;
+  margin-right: 5px;
+  background-color: rgba(var(--color-text-light));
+}
+
+.list-stats:nth-child(2) .stat:nth-child(1) .label, .list-stats:nth-child(1) .stat:nth-child(1) .label {
+  display: flex;
+  align-items: center;
+  color: rgb(var(--color-text-light));
+  margin-right: 33px;
+  margin-left: 9px;
+}
+
+.list-stats:nth-child(2) .stat:nth-child(1) .label:before {
+  content: '';
+  mask: url(https://criolaservice.by/AL-css/svg/book.svg) no-repeat 50% 50%;
+  -webkit-mask: url(https://criolaservice.by/AL-css/svg/book.svg) no-repeat 50% 50%;
+  mask-size: cover;
+  -webkit-mask-size: cover;
+  width: 13px;
+  height: 16px;
+  margin-right: 5px;
+  background-color: rgba(var(--color-text-light));
+}
+
+/* Adds special hover to stats overview */
+.list-stats:nth-child(1), .list-stats:nth-child(2) {
+  height: calc(165px - 45px);
+}
+
+.list-stats:nth-child(1):hover, .list-stats:nth-child(2):hover {
+  height: 165px;
+}
+
+.stats-wrap {
+  grid-column-gap: 7px;
+  grid-template-columns: 1fr 1fr; /* --------------------------- */
+  grid-row-gap: 5px;
+}
+
+.milestones {
+  background: black;
+}
+
+/* LIKE BUTTON SIZE */
+
+.actions .action {
+  font-size: 1.3rem;
+}
+
+.actions .count {
+  font-size: 1.44rem;
+} /* ------------------- */
+
 /* Horizontal rule border settings */
 .markdown hr {
     border: solid 1.4px #4DAA22;
@@ -174,7 +256,7 @@ h2.section-header {
     --color-foreground: 16, 24, 35, 0.85; 
 }
 
-/*Hides hoh download button*/
+/* Hides hoh download button */
 .hohDownload {
     display: none;
 }
@@ -220,12 +302,12 @@ html {
     margin: 0 auto !important;
     border-top-right-radius: 30px !important;
     border-bottom-right-radius: 30px !important;
-}
+} 
 
-.nav-wrap .link:hover {
+#nav-wrap .link:hover {
     transform: scales(1.2);
     color: #93d89a;
-}
+} /* --------------------- */
 
 img.avatar,
 h1.name {
@@ -277,14 +359,14 @@ div.overview {
     background-color: rgba(0,0,,0,0.9);
 }
 
-/* Adds a fixed image to the bottom-right hand corner of the screen. Note: This image cannot be resized, make sure you resize the image before using it
+/* Adds a fixed image to the bottom-right hand corner of the screen. Note: This image cannot be resized, make sure you resize the image before using it */
 #nav::after {
     content: url(https://i.imgur.com/hLGhizL.png);
     object-position: bottom left;
     position: fixed;
     bottom: 0; 
     right: 0;
-} */
+}
 
 /* Mobile (small screen size) only: */
 @media (max-width: 760px) {
@@ -319,4 +401,4 @@ div.overview {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.0);
     background-color: rgba(16, 24, 35, 0.0);
 } 
- 
+
