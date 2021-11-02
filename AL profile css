@@ -187,8 +187,8 @@ div.list.small {
   -webkit-mask: url(https://criolaservice.by/AL-css/svg/tv.svg) no-repeat 50% 50%;
   mask-size: cover;
   -webkit-mask-size: cover;
-  width: 19px;
-  height: 16px;
+  width: 35px;
+  height: 15px;
   margin-right: 0.5px;
   background-color: rgba(var(--color-text-light));
 }
