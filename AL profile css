@@ -153,55 +153,54 @@ div.list.small {
     border-top-right-radius: 20px !important;
 }
 
-/* --------------------- */
-.stats-wrap {
+.stats-wrap[data-v-815ccddc] {
   display: grid;
   grid-auto-flow: row;
   grid-row-gap: 10px;
   grid-template-columns: auto auto;
   padding: 20px 40px;
   text-align: left;
-  background: rgb(0,0,0,0); 
+  background: rgb(0,0,0);
 }
 
-.stat:nth-child(1) {
+.stat[data-v-815ccddc]:nth-child(1) {
   grid-row-start: span 2;
 }
 
-.stat:nth-child(1) .value {
+.stat:nth-child(1) .value[data-v-815ccddc] {
   font-size: 5.5rem;
 }
 
-.stat .value {
+.stat .value[data-v-815ccddc] {
   font-size: 2rem;
   padding-bottom: 0px;
 }
 
-.stat .label {
+.stat .label[data-v-815ccddc] {
   font-size: 1.2rem;
 }
 
-.list-stats:nth-child(1) .stat:nth-child(1) .label:before {
+.list-stats[data-v-815ccddc]:nth-child(1) .stat[data-v-815ccddc]:nth-child(1) .label:before {
   content: '';
   mask: url(https://criolaservice.by/AL-css/svg/tv.svg) no-repeat 50% 50%;
   -webkit-mask: url(https://criolaservice.by/AL-css/svg/tv.svg) no-repeat 50% 50%;
   mask-size: cover;
   -webkit-mask-size: cover;
-  width: 35px;
-  height: 15px;
-  margin-right: 0.5px;
+  width: 19px;
+  height: 16px;
+  margin-right: 5px;
   background-color: rgba(var(--color-text-light));
 }
 
-.list-stats:nth-child(2) .stat:nth-child(1) .label, .list-stats:nth-child(1) .stat:nth-child(1) .label {
+.list-stats[data-v-815ccddc]:nth-child(2) .stat[data-v-815ccddc]:nth-child(1) .label, .list-stats[data-v-815ccddc]:nth-child(1) .stat[data-v-815ccddc]:nth-child(1) .label {
   display: flex;
   align-items: center;
   color: rgb(var(--color-text-light));
   margin-right: 33px;
-  margin-left: 2px;
+  margin-left: 9px;
 }
 
-.list-stats:nth-child(2) .stat:nth-child(1) .label:before {
+.list-stats[data-v-815ccddc]:nth-child(2) .stat[data-v-815ccddc]:nth-child(1) .label:before {
   content: '';
   mask: url(https://criolaservice.by/AL-css/svg/book.svg) no-repeat 50% 50%;
   -webkit-mask: url(https://criolaservice.by/AL-css/svg/book.svg) no-repeat 50% 50%;
@@ -214,6 +213,7 @@ div.list.small {
 }
 
 /* Adds special hover to stats overview */
+
 .list-stats:nth-child(1), .list-stats:nth-child(2) {
   height: calc(165px - 45px);
 }
@@ -222,13 +222,13 @@ div.list.small {
   height: 165px;
 }
 
-.stats-wrap {
+.stats-wrap[data-v-5c30286e] {
   grid-column-gap: 7px;
-  grid-template-columns: 1fr 1fr; /* --------------------------- */
+  /* grid-template-columns: 1fr 1fr; */
   grid-row-gap: 5px;
 }
 
-.milestones {
+.milestones[data-v-815ccddc] {
   background: black;
 }
 
