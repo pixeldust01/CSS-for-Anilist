@@ -160,7 +160,7 @@ div.list.small {
   grid-template-columns: auto auto;
   padding: 20px 40px;
   text-align: left;
-  background: rgb(0,0,0);
+  background: rgb(16,28,36,0.8);
 }
 
 .stat[data-v-815ccddc]:nth-child(1) {
@@ -229,7 +229,7 @@ div.list.small {
 }
 
 .milestones[data-v-815ccddc] {
-  background: black;
+  background: rgba(16,28,36,0);
 }
 
 /* LIKE BUTTON SIZE */
@@ -362,7 +362,7 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
 }
 
 div.overview {
-    background-color: rgba(0,0,,0,0.9);
+    background-color: rgba(0,0,0,0); 
 }
 
 /* Adds a fixed image to the bottom-right hand corner of the screen. Note: This image cannot be resized, make sure you resize the image before using it */
