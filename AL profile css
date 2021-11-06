@@ -70,6 +70,9 @@ body {
   color: #4ABD4E
 }
 
+div.content.container {
+    padding-left: 0%;
+}
 
 .activity-message .text {
   border-left: solid 4px #00bfa8 ; 
@@ -111,7 +114,16 @@ div.list.small {
 
 .user .about > div.content-wrap {
     background-color: rgba(21,31,46,1);
+    border-radius: 0 20px 20px 0 !important;
     max-height: none !important;
+}
+
+div.activity-history.content-wrap {
+    border-radius: 0 20px 20px 0 !important;
+}
+
+div.genre-overview.content-wrap {
+    border-radius: 0 20px 20px 0 !important;
 }
 
 .section-header[data-v-09492909]::before {
@@ -361,8 +373,8 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
     transform-style: preserve-3d;
 }
 
-div.overview {
-    background-color: rgba(0,0,0,0); 
+.overview[data-v-5c30286e] {
+    background-color: rgba(13,155,10,0.05); 
 }
 
 /* Adds a fixed image to the bottom-right hand corner of the screen. Note: This image cannot be resized, make sure you resize the image before using it */
