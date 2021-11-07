@@ -71,7 +71,7 @@ body {
 }
 
 div.content.container {
-    padding-left: 0%;
+    margin-left: 10%;
 }
 
 .activity-message .text {
@@ -99,7 +99,7 @@ div.list.small {
     transform-origin: top; 
     position: relative;
     z-index: 3;
-    transition: 0.3s;
+    transition: 0.5s;
     transform-style: inherit;
 }
 
@@ -152,17 +152,16 @@ div.genre-overview.content-wrap {
 .wrap, .reply {
     font-family: Trebuchet MS;
     font-size: 20px;
-    border-bottom-right-radius: 20px !important;
+    border-radius: 0 20px 20px 0 !important;
 }
 
 /* Anime/manga displaying rounded corners, part 2 */
 .cover {
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
+    border-radius: 0 10px 10px 0 !important;
+    border-right: solid 2px rgba(0,0,0,0.85);
 }
 .list-stats {
-    border-bottom-right-radius: 20px !important;
-    border-top-right-radius: 20px !important;
+    border-radius: 0 20px 20px 0 !important;
 }
 
 .stats-wrap[data-v-815ccddc] {
@@ -172,7 +171,7 @@ div.genre-overview.content-wrap {
   grid-template-columns: auto auto;
   padding: 20px 40px;
   text-align: left;
-  background: rgb(16,28,36,0.8);
+  background: (0,0,0,0) /*rgba(16,28,36,0.8)*/;
 }
 
 .stat[data-v-815ccddc]:nth-child(1) {
@@ -220,17 +219,18 @@ div.genre-overview.content-wrap {
   -webkit-mask-size: cover;
   width: 13px;
   height: 16px;
-  margin-right: 5px;
-  background-color: rgba(var(--color-text-light));
+  margin-right: 15px;
+  background-color: white /*rgba(var(--color-text-light)) ------------------------*/;
 }
 
 /* Adds special hover to stats overview */
 
 .list-stats:nth-child(1), .list-stats:nth-child(2) {
-  height: calc(165px - 45px);
+  height: 120px;
 }
 
 .list-stats:nth-child(1):hover, .list-stats:nth-child(2):hover {
+  transition: 0.5s;
   height: 165px;
 }
 
@@ -240,9 +240,9 @@ div.genre-overview.content-wrap {
   grid-row-gap: 5px;
 }
 
-.milestones[data-v-815ccddc] {
-  background: rgba(16,28,36,0);
-}
+/* .milestones[data-v-815ccddc] {
+  background: (0,0,0,0) rgba(16,28,36,0);
+} */
 
 /* LIKE BUTTON SIZE */
 
@@ -299,10 +299,7 @@ html {
 
 /* Modifies load-more button */
 .load-more {
-    border-bottom-right-radius: 30px !important;
-    border-top-right-radius: 30px !important;
-    border-top-left-radius: 0px !important;
-    border-bottom-left-radius: 0px !important;
+    border-radius: 0 25px 25px 0 !important;
     font-family: trebuchet ms !important;
     font-size: 15px !important;
     margin: auto !important;
@@ -312,20 +309,10 @@ html {
 /* Changes "Overview/Anime List/Manga List..." nav section. - shorter navbar*/
 .nav-wrap {
     background: rgb(var(--color-foreground)) !important;
-    width: 68% !important;
-    margin: 0 auto !important;
-    border-top-right-radius: 30px !important;
-    border-bottom-right-radius: 30px !important;
+    width: 70% !important;
+    margin-left: 13% !important;
+    border-radius: 30px 30px 0 0 !important;
 } 
-
-#nav-wrap .link {
-    transition: transform 0.69s ease-in-out;
-}
-
-#nav-wrap .link:hover {
-    transform: scales(1.2);
-    color: #93d89a;
-}   /* ------------------------------ */
 
 img.avatar,
 h1.name {
@@ -375,6 +362,17 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
 
 .overview[data-v-5c30286e] {
     background-color: rgba(13,155,10,0.05); 
+}
+
+.footer[data-v-a5dce466] {
+    background: rgb(var(--color-foreground)) !important;
+    width: 70% !important;
+    margin: 0 auto !important;
+    border-radius: 30px 30px 0 0 !important;
+}
+
+.theme-selector/*[data-v-a5dce466]*/ {
+    visibily: hidden;
 }
 
 /* Adds a fixed image to the bottom-right hand corner of the screen. Note: This image cannot be resized, make sure you resize the image before using it */
