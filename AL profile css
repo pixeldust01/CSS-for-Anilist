@@ -1,4 +1,4 @@
-/*27 refreshes*/
+/*44 refreshes*/
 
 p {
     font-family: Trebuchet MS;
@@ -7,33 +7,8 @@ p {
 
 h1 {
    font-family: gabriola, noto, trebuchet ms !important;
-   font-size: 29px !important;
+   font-size: 30px !important;
    font-weight: bold;
-}
-
-h2 {
-    font-family: trebuchet ms, noto;
-    color: rgba(255,255,240,0.8);
-    font-size: 24px;
-}
-h3 {
-    font-family: trebuchet ms, noto;
-    /*color: rgba(255,255,240,0.8);*/
-    font-size: 19px;
-}
-h4 {
-    font-family: trebuchet ms, noto;
-    /*color: rgba(255,255,240,0.8);*/ font-size: 14px;
-}
-h5 {
-    font-family: trebuchet ms, noto;
-    /*color: rgba(255,255,240,0.8);*/
-    font-size: 11px;
-}
-h6 {
-    font-family: trebuchet ms, noto;
-    /*color: rgba(255,255,240,0.8);*/
-    font-size: 8px;
 }
 
 /* Cursor */
@@ -45,7 +20,7 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 }
 a, a:link img {
   cursor: url(https://i.imgur.com/dX5hqN6.png), auto !important;
-}                    
+}
 
 /* Background image (change the URL to change the image) */
 body {
@@ -77,7 +52,7 @@ body {
   height: 60px;
 }
 
-/* search section fix(only use with the code above) */
+/* search section fix (only use with the code above) */
 .quick-search.visible {
   left: auto;
 }
@@ -92,6 +67,44 @@ body {
   color: #4ABD4E
 }
 
+.section-header[data-v-b79eb0f0] {
+    font-family: gabriola, noto, trebuchet ms !important;
+    font-size: 25px !important;
+  color: rgba(255,255,240,0.8); 
+}
+.section-header[data-v-63cd3b41] {
+    font-family: gabriola, noto, trebuchet ms !important;
+    font-size: 25px !important;
+  color: rgba(255,255,240,0.8); 
+}
+.section-header[data-v-ddf96a3c] {
+    font-family: gabriola, noto, trebuchet ms !important;
+    font-size: 25px !important;
+  color: rgba(255,255,240,0.8); 
+}
+.section-header[data-v-5c30286e] {
+    font-family: gabriola, noto, trebuchet ms !important;
+    font-size: 25px !important;
+  color: rgba(255,255,240,0.8); 
+}
+/*---------*/
+.section-header[data-v-b79eb0f0]:hover {
+     transform: translate(10px,-10px);
+     transition: 0.5s;
+}
+.section-header[data-v-63cd3b41]:hover {
+     transform: translate(10px,-10px);
+     transition: 0.5s;
+}
+.section-header[data-v-ddf96a3c]:hover {
+     transform: translate(10px,-10px);
+     transition: 0.5s;
+}
+.section-header[data-v-5c30286e]:hover {
+     transform: translate(10px,-10px);
+     transition: 0.5s;
+}
+
 div.content.container {
     margin-left: 10%;
 }
@@ -102,14 +115,6 @@ div.content.container {
 
 .activity-text .text {
   border-left: solid 4px #1AC100; 
-}
-
-div.action.replies[data-v-e4d6521c] {
-    justify-content:left;
-}
-
-div.action.time {
-   justify-content:left;
 }
 
 div.header[data-v-e4d6521c]:hover {
@@ -216,49 +221,49 @@ div.history-day.lv-9 {
 div.history-day.lv-10 {
     border-radius: 30px 30px 30px 0 !important;
 }
-/*------*/div.history-day.lv-1:hover {
+/*----------*/div.history-day.lv-1:hover {
     transform:scale(1.3);
-    transition:0.5s;
+    transition:0.2s;
 }
 div.history-day.lv-2:hover {
     transform:scale(1.3);
-    transition:0.5s;
+    transition:0.2s;
 }
 div.history-day.lv-3:hover {
     transform:scale(1.3);
-    transition:0.5s;
+    transition:0.2s;
 }
 div.history-day.lv-4:hover {
     transform:scale(1.3);
-    transition:0.5s;
+    transition:0.2s;
 }
 div.history-day.lv-5:hover {
     transform:scale(1.3);
-    transition:0.5s;
+    transition:0.2s;
 }
 div.history-day.lv-6:hover {
     transform:scale(1.3);
-    transition:0.5s;
+    transition:0.2s;
 }
 div.history-day.lv-7:hover {
     transform:scale(1.3);
-    transition:0.5s;
+    transition:0.2s;
 }
 div.history-day.lv-8:hover {
     transform:scale(1.3);
-    transition:0.5s;
+    transition:0.2s;
 }
 div.history-day.lv-9:hover {
     transform:scale(1.3);
-    transition:0.5s;
+    transition:0.2s;
 }
 div.history-day.lv-10:hover {
     transform:scale(1.3);
-    transition:0.5s;
+    transition:0.2s;
 }
 div.activity-history.content-wrap:hover {
     transform: rotate(0.75deg) !important;
-    transition:0.5s;
+    transition:0.35s;
 }
 
 div.genre-overview.content-wrap {
@@ -269,22 +274,30 @@ div.genre-overview.content-wrap:hover {
     transition:0.5s;
 }
 
+.section-header[data-v-09492909] {
+  font-family: gabriola, noto, trebuchet ms !important;
+  font-size: 25px;
+  color: rgba(255,255,240,0.8); 
+}
 .section-header[data-v-09492909]::before {
-  transition: transform .7s ease-in-out infinite; /*------------------------*/
+  transition: transform .7s ease-in-out infinite;
   visibility: visible;
+  font-family: gabriola, noto, trebuchet ms !important;
+  font-size: 25px;
   content: "Inori's  ";
   color: rgba(255,255,240,0.8);
 }
-
 .section-header::after {
-  transition: transform .7s ease-in-out infinite;
+  transition: transform 0.7s ease-in-out infinite;
   visibility: visible;
+  font-family: gabriola, noto, trebuchet ms !important;
+  font-size: 25px;
   content: "  ✿ ";
   color: rgba(255,255,240,0.8); 
 }
 
 .activity-markdown:after {
-  content: "(◕‿◕✿)                   ";
+  content: "(◕‿◕✿)                  ";
   white-space: pre-wrap;
   justify-content: flex-end;
   display: flex;
@@ -305,7 +318,7 @@ div.genre-overview.content-wrap:hover {
 }
 .cover:hover {
     transform: rotate(5deg) !important;
-    transition:0.5s;
+    transition:0.3s;
     transform-origin:top;
 }
 
@@ -321,6 +334,11 @@ div.genre-overview.content-wrap:hover {
   padding: 20px 40px;
   text-align: left;
   background: (0,0,0,0) /*rgba(16,28,36,0.8)*/;
+}
+.stats-wrap[data-v-5c30286e]:hover {
+     transform:scale(1.01) !important;
+    transition:0.5s linear;   
+    z-index:3;
 }
 
 .stat[data-v-815ccddc]:nth-child(1) {
@@ -488,7 +506,7 @@ h1.name {
     margin-right: 0%;
 }
 
-/** Main avatar. */
+/* Main avatar */
 .avatar {
     border-radius: 100%;
     transition: transform 2s;
@@ -498,10 +516,11 @@ h1.name {
     transition: 2.5s;
 }
 
-/* avatar */
-a[class="avatar"],
-a[class="avatar router-link-exact-active router-link-active"] {
-    transition: transform 1s !important;
+/* avatar
+a[class="avatar"], */
+a.avatar.router-link-exact-active.router-link-active:hover {
+    transform: scale(1.4) !important;
+    transition: 1.5s;
 }
 
 .overview[data-v-5c30286e] {
