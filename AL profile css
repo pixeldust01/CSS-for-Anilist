@@ -1,17 +1,37 @@
+p {
+    font-family: Trebuchet MS;
+    font-size: 14px;
+}
+
 h1 {
    font-family: gabriola, noto, trebuchet ms !important;
-   font-size: 28px !important;
+   font-size: 29px !important;
    font-weight: bold;
 }
 
 h2 {
     font-family: trebuchet ms, noto;
     color: rgba(255,255,240,0.8);
+    font-size: 24px;
 }
-
-p {
-    font-family: Trebuchet MS;
-    font-size: 14px;
+h3 {
+    font-family: trebuchet ms, noto;
+    /*color: rgba(255,255,240,0.8);*/
+    font-size: 19px;
+}
+h4 {
+    font-family: trebuchet ms, noto;
+    /*color: rgba(255,255,240,0.8);*/ font-size: 14px;
+}
+h5 {
+    font-family: trebuchet ms, noto;
+    /*color: rgba(255,255,240,0.8);*/
+    font-size: 11px;
+}
+h6 {
+    font-family: trebuchet ms, noto;
+    /*color: rgba(255,255,240,0.8);*/
+    font-size: 8px;
 }
 
 /* Cursor */
@@ -82,13 +102,49 @@ div.content.container {
   border-left: solid 4px #1AC100; 
 }
 
+div.action.replies[data-v-e4d6521c] {
+    justify-content:left;
+}
+
+div.action.time {
+   justify-content:left;
+}
+
+div.header[data-v-e4d6521c]:hover {
+    transform: scale(1.25) !important; 
+    transition: 0.5s;
+    transform-origin:left;
+    z-index:3;
+}
+
+div.activity-entry.activity-text:hover {
+    transform: scale(1.01) !important;
+    transition:0.5s linear;   
+    z-index:3;
+}
+div.activity-entry.activity-message:hover {
+    transform: scale(1.01) !important;
+    transition:0.5s linear;   
+    z-index:3;
+}
+div.activity-entry.activity-manga_list:hover {
+    transform: rotate(1deg) !important;
+    transition:0.5s linear;   
+    z-index:3;
+}
+div.activity-entry.activity-anime_list:hover {
+    transform: rotate(1deg) !important;
+    transition:0.5s linear;
+    z-index:3;
+}
+
 div.list.small {
     border-bottom: solid 4px rgba(98,168,0,0.5); 
 } 
 
 /* favourites section */
 .favourite {
-    transition: transform 5s linear;
+    transition: transform 5s linear 0.5s;
     border-radius: 20%;
     position: static;
 }
@@ -99,7 +155,7 @@ div.list.small {
     transform-origin: top; 
     position: relative;
     z-index: 3;
-    transition: 0.5s;
+    transition: 0.5s linear 0.5s;
     transform-style: inherit;
 }
 
@@ -117,24 +173,109 @@ div.list.small {
     border-radius: 0 20px 20px 0 !important;
     max-height: none !important;
 }
+div.about[data-v-5c30286e]:hover {
+    transform: rotate(0.75deg) !important;
+    transition:0.5s;
+}
 
 div.activity-history.content-wrap {
     border-radius: 0 20px 20px 0 !important;
+}
+div.history-day.lv-0 {
+    border-radius: 30px 30px 30px 0 !important;
+}
+div.history-day.lv-1 {
+    border-radius: 30px 30px 30px 0 !important;
+}
+div.history-day.lv-2 {
+    border-radius: 30px 30px 30px 0 !important;
+}
+div.history-day.lv-3 {
+    border-radius: 30px 30px 30px 0 !important;
+}
+div.history-day.lv-4 {
+    border-radius: 30px 30px 30px 0 !important;
+}
+div.history-day.lv-5 {
+    border-radius: 30px 30px 30px 0 !important;
+}
+div.history-day.lv-6 {
+    border-radius: 30px 30px 30px 0 !important;
+}
+div.history-day.lv-7 {
+    border-radius: 30px 30px 30px 0 !important;
+}
+div.history-day.lv-8 {
+    border-radius: 30px 30px 30px 0 !important;
+}
+div.history-day.lv-9 {
+    border-radius: 30px 30px 30px 0 !important;
+}
+div.history-day.lv-10 {
+    border-radius: 30px 30px 30px 0 !important;
+}
+/*------*/div.history-day.lv-1:hover {
+    transform:scale(1.3);
+    transition:0.5s;
+}
+div.history-day.lv-2:hover {
+    transform:scale(1.3);
+    transition:0.5s;
+}
+div.history-day.lv-3:hover {
+    transform:scale(1.3);
+    transition:0.5s;
+}
+div.history-day.lv-4:hover {
+    transform:scale(1.3);
+    transition:0.5s;
+}
+div.history-day.lv-5:hover {
+    transform:scale(1.3);
+    transition:0.5s;
+}
+div.history-day.lv-6:hover {
+    transform:scale(1.3);
+    transition:0.5s;
+}
+div.history-day.lv-7:hover {
+    transform:scale(1.3);
+    transition:0.5s;
+}
+div.history-day.lv-8:hover {
+    transform:scale(1.3);
+    transition:0.5s;
+}
+div.history-day.lv-9:hover {
+    transform:scale(1.3);
+    transition:0.5s;
+}
+div.history-day.lv-10:hover {
+    transform:scale(1.3);
+    transition:0.5s;
+}
+div.activity-history.content-wrap:hover {
+    transform: rotate(0.75deg) !important;
+    transition:0.5s;
 }
 
 div.genre-overview.content-wrap {
     border-radius: 0 20px 20px 0 !important;
 }
+div.genre-overview.content-wrap:hover {
+    transform: rotate(0.75deg) !important;
+    transition:0.5s;
+}
 
 .section-header[data-v-09492909]::before {
-  transition: transform .7s ease-in-out;
+  transition: transform .7s ease-in-out infinite; /*------------------------*/
   visibility: visible;
   content: "Inori's  ";
   color: rgba(255,255,240,0.8);
 }
 
 .section-header::after {
-  transition: transform .7s ease-in-out;
+  transition: transform .7s ease-in-out infinite;
   visibility: visible;
   content: "  ✿ ";
   color: rgba(255,255,240,0.8); 
@@ -160,6 +301,12 @@ div.genre-overview.content-wrap {
     border-radius: 0 10px 10px 0 !important;
     border-right: solid 2px rgba(0,0,0,0.85);
 }
+.cover:hover {
+    transform: rotate(5deg) !important;
+    transition:0.5s;
+    transform-origin:top;
+}
+
 .list-stats {
     border-radius: 0 20px 20px 0 !important;
 }
@@ -228,7 +375,6 @@ div.genre-overview.content-wrap {
 .list-stats:nth-child(1), .list-stats:nth-child(2) {
   height: 120px;
 }
-
 .list-stats:nth-child(1):hover, .list-stats:nth-child(2):hover {
   transition: 0.5s;
   height: 165px;
@@ -277,12 +423,12 @@ div.genre-overview.content-wrap {
 
 /* Changes scrollbar for whole page (Firefox)*/
 html {
-    scrollbar-width: thin;
+    scrollbar-width: 3px;
 }
 
 /* Chrome scrollbar */
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 3px;
     background: rgb(0,0,0,0);
 }
 
@@ -346,18 +492,15 @@ h1.name {
     border-radius: 100%;
     transition: transform 2s;
 }
+.avatar:hover {
+    transform: rotateY(360deg) !important;
+    transition: 2.5s;
+}
 
 /* avatar */
 a[class="avatar"],
 a[class="avatar router-link-exact-active router-link-active"] {
     transition: transform 1s !important;
-}
-/* avatar hover */
-a[class="avatar"]:hover,
-a[class="avatar router-link-exact-active router-link-active"]:hover {
-    transform: scale(2.5) !important; 
-    transition: transform 0.3s; 
-    transform-style: preserve-3d;
 }
 
 .overview[data-v-5c30286e] {
@@ -369,10 +512,6 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
     width: 70% !important;
     margin: 0 auto !important;
     border-radius: 30px 30px 0 0 !important;
-}
-
-.theme-selector/*[data-v-a5dce466]*/ {
-    visibily: hidden;
 }
 
 /* Adds a fixed image to the bottom-right hand corner of the screen. Note: This image cannot be resized, make sure you resize the image before using it */
