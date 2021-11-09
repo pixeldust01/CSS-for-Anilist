@@ -1,4 +1,4 @@
-/44 refreshes*/
+/*11 refreshes*/
 
 p {
     font-family: Trebuchet MS;
@@ -68,10 +68,25 @@ body {
 }
 
 a:hover {
-    color: #11b227 !important;
-    transform: scale(1.001) !important;
-    transition: 0.25s;
+    color: rgba(18,186,40,0.85) !important;
+    transform: scale(1.01) !important;
+    transition: 0.2s;
 }
+/* a.activity-entry.activity-manga_list:hover {
+    color: rgba(18,186,40,0.85) !important;
+    transform: scale(1.01) !important;
+    transition: 0.2s;
+}
+a.activity-entry.activity-anime_list:hover {
+    color: rgba(18,186,40,0.85) !important;
+    transform: scale(1.01) !important;
+    transition: 0.2s;
+}
+a.activity-entry.activity-message:hover {
+    color: rgba(18,186,40,0.85) !important;
+    transform: scale(1.01) !important;
+    transition: 0.2s;
+} */
 
 .section-header[data-v-b79eb0f0] {
     font-family: gabriola, noto, trebuchet ms !important;
@@ -286,6 +301,11 @@ div.genre-overview.content-wrap {
 div.genre-overview.content-wrap:hover {
     transform: rotate(0.75deg) !important;
     transition:0.5s linear;
+}
+
+.el-dropdown[data-v-09492909] {
+    font-size: 20px !important;
+    font-family: trebuchet ms;
 }
 
 .section-header[data-v-09492909] {
