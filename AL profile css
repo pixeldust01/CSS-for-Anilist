@@ -1,4 +1,4 @@
-/*44 refreshes*/
+/44 refreshes*/
 
 p {
     font-family: Trebuchet MS;
@@ -67,6 +67,12 @@ body {
   color: #4ABD4E
 }
 
+a:hover {
+    color: #11b227 !important;
+    transform: scale(1.001) !important;
+    transition: 0.25s;
+}
+
 .section-header[data-v-b79eb0f0] {
     font-family: gabriola, noto, trebuchet ms !important;
     font-size: 25px !important;
@@ -87,22 +93,30 @@ body {
     font-size: 25px !important;
   color: rgba(255,255,240,0.8); 
 }
-/*---------*/
+/*------------*/
 .section-header[data-v-b79eb0f0]:hover {
-     transform: translate(10px,-10px);
-     transition: 0.5s;
+    transform: scale(1.25) !important; 
+    transition: 0.5s;
+    transform-origin:left;
+    z-index:3;
 }
 .section-header[data-v-63cd3b41]:hover {
-     transform: translate(10px,-10px);
-     transition: 0.5s;
+    transform: scale(1.25) !important; 
+    transition: 0.5s;
+    transform-origin:left;
+    z-index:3;
 }
 .section-header[data-v-ddf96a3c]:hover {
-     transform: translate(10px,-10px);
-     transition: 0.5s;
+    transform: scale(1.25) !important; 
+    transition: 0.5s;
+    transform-origin:left;
+    z-index:3;
 }
 .section-header[data-v-5c30286e]:hover {
-     transform: translate(10px,-10px);
-     transition: 0.5s;
+    transform: scale(1.25) !important; 
+    transition: 0.5s;
+    transform-origin:left;
+    z-index:3;
 }
 
 div.content.container {
@@ -181,8 +195,8 @@ div.list.small {
     max-height: none !important;
 }
 div.about[data-v-5c30286e]:hover {
-    transform: translate(10px,-10px) !important;
-    transition:0.5s;
+    transform: rotate(0.35deg) !important;
+    transition:0.5s linear;
 }
 
 div.activity-history.content-wrap {
@@ -271,7 +285,7 @@ div.genre-overview.content-wrap {
 }
 div.genre-overview.content-wrap:hover {
     transform: rotate(0.75deg) !important;
-    transition:0.5s;
+    transition:0.5s linear;
 }
 
 .section-header[data-v-09492909] {
@@ -303,6 +317,10 @@ div.genre-overview.content-wrap:hover {
   display: flex;
   color: #8DCC91;
 }
+
+.el-dialog__wrapper[data-v-e4d6521c] {
+    width:75% auto !important;
+} /*------------------------HEEE------------ERRRR-------EEEEEEEEEEE-----------*/
 
 /* Profile activity (status/messages/list) Makes border corners rounded. */
 .wrap, .reply {
