@@ -338,10 +338,6 @@ div.genre-overview.content-wrap:hover {
   color: #8DCC91;
 }
 
-.el-dialog__wrapper[data-v-e4d6521c] {
-    width:75% auto !important;
-} /*------------------------HEEE------------ERRRR-------EEEEEEEEEEE-----------*/
-
 /* Profile activity (status/messages/list) Makes border corners rounded. */
 .wrap, .reply {
     font-family: Trebuchet MS;
