@@ -1,4 +1,4 @@
-/*11 refreshes*/
+/*1 refreshes*/
 
 p {
     font-family: Trebuchet MS;
@@ -66,27 +66,6 @@ body {
   transform: scale(1.2);
   color: #4ABD4E
 }
-
-a:hover {
-    color: rgba(18,186,40,0.85) !important;
-    transform: scale(1.01) !important;
-    transition: 0.2s;
-}
-/* a.activity-entry.activity-manga_list:hover {
-    color: rgba(18,186,40,0.85) !important;
-    transform: scale(1.01) !important;
-    transition: 0.2s;
-}
-a.activity-entry.activity-anime_list:hover {
-    color: rgba(18,186,40,0.85) !important;
-    transform: scale(1.01) !important;
-    transition: 0.2s;
-}
-a.activity-entry.activity-message:hover {
-    color: rgba(18,186,40,0.85) !important;
-    transform: scale(1.01) !important;
-    transition: 0.2s;
-} */
 
 .section-header[data-v-b79eb0f0] {
     font-family: gabriola, noto, trebuchet ms !important;
