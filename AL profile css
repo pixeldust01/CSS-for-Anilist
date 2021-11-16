@@ -1,4 +1,4 @@
-/*1 refreshes*/
+/*2 refreshes*/
 
 p {
     font-family: Trebuchet MS;
@@ -111,6 +111,10 @@ body {
     transition: 0.5s;
     transform-origin:left;
     z-index:3;
+}
+
+.actions[data-v-ddf96a3c] {
+    margin-right: 90% !important;
 }
 
 div.content.container {
