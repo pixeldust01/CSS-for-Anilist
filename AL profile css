@@ -1,4 +1,4 @@
-/*2 refreshes*/
+/*10refreshes*/
 
 p {
     font-family: Trebuchet MS;
@@ -29,6 +29,11 @@ body {
     background-size: cover !important;
 }
 
+.logo[data-v-4fbac4e1] {
+    content: url(https://i.imgur.com/w38RTpn.png) !important;
+    padding: 6px 6px 6px 6px;
+}
+
 /* Banner - use together with background image */
 .banner {
     background-image: none !important;
@@ -44,8 +49,8 @@ body {
 #nav {
   background: rgba(21,31,46,0.9) !important;
   border-radius: 0 0 40px 40px;
-  width: 70%; 
-  left: 15%;
+  width: 68%; 
+  left: 13%;
   justify-content: center;
   transition: background 0.5s ease 0s, top 0.5s ease 0s !important;
   /* backdrop-filter: blur(4px); */
@@ -491,8 +496,8 @@ html {
 /* Changes "Overview/Anime List/Manga List..." nav section. - shorter navbar*/
 .nav-wrap {
     background: rgb(var(--color-foreground)) !important;
-    width: 70% !important;
-    margin-left: 10% !important;
+    width: 68% !important;
+    margin-left: 13% !important;
     border-radius: 30px 30px 0 0 !important;
 } 
 
@@ -546,8 +551,9 @@ a.avatar.router-link-exact-active.router-link-active:hover {
 
 .footer[data-v-a5dce466] {
     background: rgb(var(--color-foreground)) !important;
-    width: 70% !important;
-    margin: 0 auto !important;
+    width: 68% !important;
+    /* right: 13% ; */
+    margin: 13% auto !important;
     border-radius: 30px 30px 0 0 !important;
 }
 
