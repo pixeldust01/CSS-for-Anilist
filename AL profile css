@@ -1,4 +1,4 @@
-/*0 refreshes*/
+/*12 refreshes*/
 
 p {
     font-family: Trebuchet MS;
@@ -123,7 +123,7 @@ body {
 }
 
 div.content.container {
-    margin-left: 10% !important;
+    margin-right: 15% !important;
 }
 
 .activity-message .text {
@@ -426,8 +426,7 @@ div.genre-overview.content-wrap:hover {
 }
 
 .overview[data-v-5c30286e] {
-  grid-template-columns: 45% 50% !important;
-  margin-left: none !important;
+    grid-template-columns: 45% 50% !important;
 }
 
 /* LIKE BUTTON SIZE */
@@ -532,16 +531,19 @@ h1.name {
     border-radius: 100%;
     transition: transform 2s;
 }
-.avatar:hover {
+.avatar[data-v-1cc2919e]:hover {
     transform: rotateY(360deg) !important;
     transition: 2.5s;
 }
 
-/* avatar
-a[class="avatar"], */
+/* avatars- me // others */
 a.avatar.router-link-exact-active.router-link-active:hover {
     transform: scale(1.4) !important;
-    transition: 1.5s;
+    transition: 1s;
+}
+.avatar:hover {
+    transform: rotateY(360deg) !important;
+    transition: 1s;
 }
 
 .footer[data-v-a5dce466] {
@@ -553,16 +555,15 @@ a.avatar.router-link-exact-active.router-link-active:hover {
 
 /* Adds a fixed image to the bottom-right hand corner of the screen. Note: This image cannot be resized, make sure you resize the image before using it */
 #nav::after {
-    content: url(https://i.imgur.com/C9wfNh3.png);    
+    content: url(https://i.imgur.com/C9wfNh3.png); 
     object-position: bottom left;
     position: fixed;
-    /* width: 21%; */
     bottom: 0 !important; 
     right: 0 !important;
 }
 
 /* Mobile (small screen size) only: */
-@media (max-width: 760px) {
+@media (min-width: 760px) {
 
     /* InoriofRain */
     .name-wrapper {
