@@ -1,4 +1,4 @@
-/*12 refreshes*/
+/*0 refreshes*/
 
 p {
     font-family: Trebuchet MS;
@@ -291,6 +291,11 @@ div.genre-overview.content-wrap {
 div.genre-overview.content-wrap:hover {
     transform: rotate(0.75deg) !important;
     transition:0.5s linear;
+}
+
+.actions[data-v-ddf96a3c] {
+    padding-left: auto !important;
+    margin-left: 50px !important;
 }
 
 .section-header[data-v-09492909] {
