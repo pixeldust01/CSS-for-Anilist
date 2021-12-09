@@ -33,7 +33,7 @@ a, a:link img {
 
 /* Background image (change the URL to change the image) */
 body {
-    background: rgb(var(--color-background)) url("https://i.imgur.com/TU1Umee.png") center/100% fixed;
+    background: rgb(var(--color-background)) url("https://i.imgur.com/3f7FBiA.png") center/100% fixed; /*CHRISTMAS spcl BG, original here: https://i.imgur.com/TU1Umee.png*/
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
