@@ -371,13 +371,13 @@ div.genre-overview.content-wrap:hover {
     border-radius: 0 20px 20px 0 !important;
 }
 
-.markdown .markdown-spoiler:before /*--------------------------*/ {
+.markdown .markdown-spoiler:before {
     color: rgb(var(--color-blue));
     cursor: url(https://i.imgur.com/dX5hqN6.png), auto !important; 
     background: rgba(7,48,6,0.95);
     border-radius: 10px;
-    content: "Spoiler";
-    font-size: 1.4rem;
+    content: "W h a t i s b a c k s t a g e ?";
+    font-size: 1.3rem;
     padding: 0 5px;
 }
 
@@ -513,12 +513,12 @@ div.genre-overview.content-wrap:hover {
 
 /* Changes scrollbar for whole page (Firefox)*/
 html {
-    scrollbar-width: 3px;
+    scrollbar-width: 6px;
 }
 
 /* Chrome scrollbar */
 ::-webkit-scrollbar {
-    width: 3px;
+    width: 6px;
     background: rgb(0,0,0,0);
 }
 
