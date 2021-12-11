@@ -1,4 +1,4 @@
-/*0 refreshes*/
+/*18 refreshes*/
 
 p {
     font-family: Trebuchet MS;
@@ -29,6 +29,7 @@ a, a:link img {
 .logo[data-v-4fbac4e1]:hover {
     transform: scale(1.2);
     transition: 0.65s;
+    z-index: 3;
 }
 
 /* Background image (change the URL to change the image) */
@@ -134,12 +135,25 @@ div.content.container {
   border-left: solid 4px #1AC100; 
 }
 
-div.header[data-v-e4d6521c]:hover {
+.header[data-v-e4d6521c]:hover {
     transform: scale(1.25) !important; 
     transition: 0.5s;
     transform-origin:left;
     z-index:3;
 }
+
+.header[data-v-77aecf0c]:hover {
+    transform: scale(1.25) !important; 
+    transition: 0.5s;
+    transform-origin:left;
+    z-index:3;
+} 
+.header[data-v-732ef224]:hover {
+    transform: scale(1.2) !important; 
+    transition: 0.5s;
+    transform-origin:left;
+    z-index:3;
+} /*-----------------------------*/
 
 div.activity-entry.activity-text:hover {
     transform: scale(1.01) !important;
@@ -208,36 +222,58 @@ div.activity-history.content-wrap {
 }
 div.history-day.lv-0 {
     border-radius: 30px 30px 30px 0 !important;
+    width: 11px;
+    height: 11px;
 }
 div.history-day.lv-1 {
     border-radius: 30px 30px 30px 0 !important;
+    width: 11px;
+    height: 11px;
 }
 div.history-day.lv-2 {
     border-radius: 30px 30px 30px 0 !important;
+    width: 11px;
+    height: 11px;
 }
 div.history-day.lv-3 {
     border-radius: 30px 30px 30px 0 !important;
+    width: 11px;
+    height: 11px;
 }
 div.history-day.lv-4 {
     border-radius: 30px 30px 30px 0 !important;
+    width: 11px;
+    height: 11px;
 }
 div.history-day.lv-5 {
     border-radius: 30px 30px 30px 0 !important;
+    width: 11px;
+    height: 11px;
 }
 div.history-day.lv-6 {
     border-radius: 30px 30px 30px 0 !important;
+    width: 11px;
+    height: 11px;
 }
 div.history-day.lv-7 {
     border-radius: 30px 30px 30px 0 !important;
+    width: 11px;
+    height: 11px;
 }
 div.history-day.lv-8 {
     border-radius: 30px 30px 30px 0 !important;
+    width: 11px;
+    height: 11px;
 }
 div.history-day.lv-9 {
     border-radius: 30px 30px 30px 0 !important;
+    width: 11px;
+    height: 11px;
 }
 div.history-day.lv-10 {
     border-radius: 30px 30px 30px 0 !important;
+    width: 11px;
+    height: 11px;
 }
 /*----------*/
 div.history-day.lv-1:hover {
@@ -333,6 +369,16 @@ div.genre-overview.content-wrap:hover {
     font-family: Trebuchet MS;
     font-size: 20px;
     border-radius: 0 20px 20px 0 !important;
+}
+
+.markdown .markdown-spoiler:before /*--------------------------*/ {
+    color: rgb(var(--color-blue));
+    cursor: url(https://i.imgur.com/dX5hqN6.png), auto !important; 
+    background: rgba(7,48,6,0.95);
+    border-radius: 10px;
+    content: "Spoiler";
+    font-size: 1.4rem;
+    padding: 0 5px;
 }
 
 /* Anime/manga displaying rounded corners, part 2 */
@@ -493,7 +539,7 @@ html {
     font-family: trebuchet ms !important;
     font-size: 15px !important;
     margin: auto !important;
-    max-width: 200px !important;
+    max-width: 400px !important;
 }
 
 /* Changes "Overview/Anime List/Manga List..." nav section. - shorter navbar*/
