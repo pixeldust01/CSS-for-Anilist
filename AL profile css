@@ -1,4 +1,4 @@
-/*0 refreshes*/
+/*4 refreshes*/
 
 p {
     font-family: Trebuchet MS;
@@ -379,6 +379,16 @@ div.genre-overview.content-wrap:hover {
     content: "W h a t i s b a c k s t a g e ?";
     font-size: 1.3rem;
     padding: 0 5px;
+}
+
+.markdown .markdown-spoiler.spoiler-visible i.hide-spoiler {
+    background: 0 0;
+    color: rgba(8,198,74) /*(var(--color-text))*/;
+    cursor: pointer; 
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.2s;
 }
 
 /* Anime/manga displaying rounded corners, part 2 */
