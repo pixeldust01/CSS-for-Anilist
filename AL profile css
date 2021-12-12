@@ -1,4 +1,4 @@
-/*4 refreshes*/
+/*5 refreshes*/
 
 p {
     font-family: Trebuchet MS;
@@ -384,7 +384,7 @@ div.genre-overview.content-wrap:hover {
 .markdown .markdown-spoiler.spoiler-visible i.hide-spoiler {
     background: 0 0;
     color: rgba(8,198,74) /*(var(--color-text))*/;
-    cursor: pointer; 
+    cursor: url(https://i.imgur.com/dX5hqN6.png), auto !important;
     position: absolute;
     right: 0;
     top: 0;
