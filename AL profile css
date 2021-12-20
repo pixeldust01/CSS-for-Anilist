@@ -1,4 +1,4 @@
-/*5 refreshes*/
+/*0 refreshes*/
 
 p {
     font-family: Trebuchet MS;
@@ -23,7 +23,7 @@ a, a:link img {
 }
 
 .logo[data-v-4fbac4e1] {
-    content: url(https://i.imgur.com/w38RTpn.png) !important;
+    content: url(https://i.imgur.com/l32yTJS.png) /*url(https://i.imgur.com/w38RTpn.png)*/ !important;
     padding: 5px 5px 5px 5px;
 }
 .logo[data-v-4fbac4e1]:hover {
