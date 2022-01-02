@@ -676,6 +676,13 @@ div.dropdown.el-dropdown:hover {
     margin-right: 0%;
 }
 
+.filter-group {
+    font-family: trebuchet ms !important;
+    font-size: 15px;
+    color: rgb(255,255,240);
+    font-weight:bold;
+}
+
 /* Main avatar */
 .avatar {
     border-radius: 100%;
