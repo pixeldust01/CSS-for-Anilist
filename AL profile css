@@ -85,6 +85,11 @@ body {
 .quick-search.visible {
   left: auto;
 }
+div.search[data-v-4fbac4e1]:hover {
+    transform:rotateY(360deg);
+    cursor: url(https://i.imgur.com/cn2zbB2.png) !important;
+    transition:1s;
+}
 
 /* nav buttons hover */
 #nav .link {
@@ -146,12 +151,18 @@ div.content.container {
     margin-right: 15% !important;
 }
 
+div.activityentry.activity-message {
+    max-height:none !important;
+}
 .activity-message .text {
-  border-left: solid 4px #00bfa8 ; 
+  border-left: solid 4px rgba(0,191,168); 
 }
 
+div.activityentry.activity-text {
+    max-height:none !important;
+}
 .activity-text .text {
-  border-left: solid 4px #1AC100; 
+  border-left: solid 4px rgba(26,193,0); 
 }
 
 .header[data-v-e4d6521c]:hover {
@@ -175,28 +186,24 @@ div.content.container {
 } 
 
 div.activity-entry.activity-text:hover {
-    transform: scale(1.01) !important;
-    transition:0.5s linear;   
-    z-index:3;
+    transform: scale(1.01);
+    transition:0.5s ;   
 }
 div.activity-entry.activity-message:hover {
-    transform: scale(1.01) !important;
-    transition:0.5s linear;   
-    z-index:3;
+    transform: scale(1.01);
+    transition:0.5s ;  
 }
 div.activity-entry.activity-manga_list:hover {
-    transform: rotate(1deg) !important;
-    transition:0.5s linear;   
-    z-index:3;
+    transform: rotate(1deg);
+    transition:0.5s ;
 }
 div.activity-entry.activity-anime_list:hover {
-    transform: rotate(1deg) !important;
-    transition:0.5s linear;
-    z-index:3;
+    transform: rotate(1deg);
+    transition:0.5s ;
 }
 
 div.list.small {
-    border-bottom: solid 4px rgba(98,168,0,0.5); 
+    border-bottom: solid 4px rgba(98,168,0,0.55); 
 } 
 
 /* favourites section */
@@ -526,17 +533,25 @@ div.el-dropdown[data-v-09492909]:hover {
 }
 
 /* LIKE BUTTON SIZE & animation */
-
-.actions .action {
-  font-size: 1.3rem;
+.button.liked svg[data-icon="heart"] path {
+  transform-origin: center;
+  animation: animateHeart 1.5s infinite;
 }
 
-.actions .count {
-  font-size: 1.44rem;
-} 
+.activity-feed .activity-entry .wrap .actions {
+  z-index: 1;
+}
 
-.svg-inline--fa fa-heart fa-w-16 fa-sm[data-v-77aecf0c] {
-    content: url(https://i.imgur.com/7EQ3uwH.gif) !important;
+.activity-feed .activity-entry, .activity-feed .activity-replies .reply {
+  animation: zoomIn 0.2s;
+}
+
+.actions .action {
+  font-size: 1.44rem;
+}
+
+.actions .count[data-v-1bf2cf4e] {
+  font-size: 1.44rem;
 }
 
 /* Horizontal rule border settings */
@@ -567,7 +582,7 @@ html {
 
 /* Chrome scrollbar */
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 4px;
     background: rgb(0,0,0,0);
 }
 
@@ -593,9 +608,8 @@ html {
     max-width: none !important;
 }
 .load-more:hover {
-    transform:scale(1.005); 
-    border-left: solid 3px rgba(204,255,0,0.7);
-    border-bottom: solid 3px rgba(204,255,0,0.7);
+    border-left: solid 3px rgba(204,255,0,0.75);
+    border-bottom: solid 3px rgba(204,255,0,0.75);
     transition:0.4s;
 }
 
@@ -605,11 +619,14 @@ html {
     width: 68% !important;
     margin-left: 13% !important;
     border-radius: 30px 30px 0 0 !important;
+    max-height:none !important; 
 } 
 a[data-v-1cc2919e]:hover {
-    transform: scale(1.2);
-    color: #4ABD4E;
-    transition: 0.69s;
+    border-left: solid 4px #00ce03;
+    border-right: solid 4px #00ce03;
+    color: #31ce34;
+    transition: 0.4s;
+    transform-origin:top;
 }
 
 img.avatar,
@@ -691,6 +708,7 @@ h2[data-v-a5dce466] {
     color: #4ABD4E !important;
 }
 a[data-v-a5dce466]:hover {
+    transform:scale(1.03);
     color: #4ABD4E !important;
     transition: 0.3s;
 }
