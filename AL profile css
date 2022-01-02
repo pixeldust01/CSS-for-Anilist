@@ -411,12 +411,12 @@ div.genre-overview.content-wrap:hover {
 }
 
 li.el-dropdown-menu__item[data-v-09492909] {
-    font-family: gabriola !important;
-    font-size: 17x !important;
+    font-family: trebuchet ms !important;
+    font-size: 14px !important;
 }
 div.el-dropdown[data-v-09492909]:hover {
-    transform:scale(1.003); 
-    transition:1.5s;
+    transform:scale(1.05); 
+    transition:1.3s;
 }
 
 /* Anime/manga displaying rounded corners, part 2 */
@@ -605,6 +605,22 @@ h1.name {
     flex-direction: row;
     margin-top: 80px;
     margin-bottom: 10px
+}
+div.name-wrapper:hover {
+    transform: rotate(5deg) !important;
+    transition: 1.7s;
+}
+div.mod-badge-wrap.follower-badge:hover {
+    transform: rotate(5deg) !important;
+    transition: 1.7s;
+}
+div.nav-btn:hover {
+    transform: rotate(5deg) !important;
+    transition: 1.7s;
+}
+div.dropdown.el-dropdown:hover {
+    transform: scale(1.3) !important;
+    transition: 1.7s;
 }
 
 .activity-feed-wrap {
