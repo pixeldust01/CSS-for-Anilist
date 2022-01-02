@@ -4,9 +4,25 @@ p {
 }
 
 h1 {
-   font-family: gabriola, noto, trebuchet ms !important;
-   font-size: 30px !important;
+   font-family: gabriola, trebuchet ms !important;
+   font-size: 35px !important;
    font-weight: bold;
+}
+h2 { 
+   font-family: gabriola, trebuchet ms !important;
+   font-size: 30px !important;
+}
+h3 {
+   font-family: gabriola, trebuchet ms !important;
+   font-size: 25px !important;
+}
+h4 {
+   font-family: gabriola, trebuchet ms !important;
+   font-size: 20px !important;
+}
+h5 {
+   font-family: cambria !important;
+   font-size: 13px !important;
 }
 
 /* Cursor */
@@ -22,7 +38,7 @@ a, a:link img {
 
 .logo[data-v-4fbac4e1] {
     content: url(https://i.imgur.com/w38RTpn.png) !important;
-    padding: 10px 10px 10px 10px;
+    padding: 7px 7px 7px 7px;
 }
 .logo[data-v-4fbac4e1]:hover {
     transform: scale(1.2);
@@ -346,7 +362,7 @@ div.genre-overview.content-wrap:hover {
   transition: transform .7s ease-in-out infinite;
   visibility: visible;
   font-family: gabriola, noto, trebuchet ms !important;
-  font-size: 25px;
+  font-size: 31px;
   content: "Inori's  ";
   color: rgba(255,255,240,0.8);
 }
@@ -392,6 +408,15 @@ div.genre-overview.content-wrap:hover {
     right: 0;
     top: 0;
     transition: 0.2s;
+}
+
+li.el-dropdown-menu__item[data-v-09492909] {
+    font-family: gabriola !important;
+    font-size: 17x !important;
+}
+div.el-dropdown[data-v-09492909]:hover {
+    transform:scale(1.003); 
+    transition:1.5s;
 }
 
 /* Anime/manga displaying rounded corners, part 2 */
@@ -521,7 +546,7 @@ div.genre-overview.content-wrap:hover {
 
 /* Hides hoh download button */
 .hohDownload {
-    display: none;
+    visibility: hidden ;
 }
 
 /* Changes scrollbar for whole page (Firefox)*/
