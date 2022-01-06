@@ -41,9 +41,7 @@ a, a:link img {
     padding: 7px 7px 7px 7px;
 }
 .logo[data-v-4fbac4e1]:hover {
-    transform: scale(1.007);
-    border:solid 0.5px rgba(23,37,45,0);
-    border-radius:50px;
+    transform: scale(1.05);
     transition: 0.65s;
     z-index: 3;
 }
@@ -666,8 +664,8 @@ html {
     transition0.2s;
 }
 a[data-v-1cc2919e]:hover {
-    border-left: solid 4px #00ce03;
-    border-right: solid 4px #00ce03;
+    border-left: solid 4px rgba(0,206,3,0.8);
+    border-right: solid 4px rgba(0,206,3,0.8);
     color: #31ce34;
     transition: 0.3s;
 }
