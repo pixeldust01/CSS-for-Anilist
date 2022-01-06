@@ -413,7 +413,7 @@ div.el-tooltip.percentage.Action[data-v-63cd3b41] {
 }
 
 .activity-markdown:after {
-  content: /*url(https://i.imgur.com/TYWoHgG.png)*/ "(◕‿◕✿)                  ";
+  content: /*url(https://i.imgur.com/2RIuEgz.png)*/ "(◕‿◕✿)                  ";
   white-space: pre-wrap;
   justify-content: flex-end;
   display: flex;
