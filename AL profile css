@@ -189,12 +189,6 @@ div.activityentry.activity-text {
     transform-origin:left;
     z-index:3;
 } 
-.header[data-v-732ef224]:hover {
-    transform: scale(1.2) !important; 
-    transition: 0.5s;
-    transform-origin:left;
-    z-index:3;
-} 
 
 div.activity-entry.activity-text:hover {
     transform: scale(1.01);
