@@ -664,6 +664,22 @@ a[data-v-1cc2919e]:hover {
     transition: 0.3s;
 }
 
+.follow-card {
+    border-radius: 0 30px 30px 0 !important;
+}
+.avatar[data-v-39573fe2] {
+    border-radius: 0 30px 30px 0 !important;
+}
+.follow-card:hover {
+    border-left: solid 3.5px rgba(43,170,1);
+    border-radius: 0 30px 30px 0 !important;
+    transition:0.3s;
+}
+.avatar[data-v-39573fe2]:hover {
+    transform:scale(1.05x) !important;
+    transition:0.3s;
+}
+
 img.avatar,
 h1.name {
     margin: auto;
@@ -745,7 +761,11 @@ a.avatar.router-link-exact-active.router-link-active:hover {
     transition: 1s;
 }
 /* avatars - other */
-.avatar:hover {
+.avatar[data-v-77aecf0c]:hover {
+    transform: rotateY(360deg) !important;
+    transition: 1s;
+}
+.avatar[data-v-732ef224]:hover {
     transform: rotateY(360deg) !important;
     transition: 1s;
 }
