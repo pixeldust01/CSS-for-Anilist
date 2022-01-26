@@ -214,16 +214,17 @@ div.list.small {
 /* favourites section */
 .favourite {
     transition: transform 5s linear;
-    filter: blur(1px) sepia(70%) brightness(70%);
+    filter: blur(2px) sepia(70%) brightness(70%);
     border-radius:20%;
     position: static;
 }
  
-/* favourites section hover - it scales! */
+/* favourites section hover */
 .favourite:hover {
     filter:none !important;
+    border-bottom: solid 3.5px rgba(43,170,1);
     position: relative;
-    transition: 0.35s linear;
+    transition: 0.3s linear !important;
     transform-style: inherit;
 }
 
