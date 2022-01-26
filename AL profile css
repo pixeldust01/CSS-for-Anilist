@@ -61,7 +61,7 @@ body {
 /* Banner - use together with background image */
 .banner {
     background-image: none !important;
-    background-color: rgba(36, 37, 56,0) !important;
+    background-color: rgba(0,0,0,0) !important;
     height: auto !important;
 }
 
