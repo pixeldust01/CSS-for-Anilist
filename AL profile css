@@ -409,16 +409,16 @@ div.el-dropdown[data-v-09492909]:hover {
 }
 
 /* Anime/manga displaying rounded corners, part 2 */
-.cover[data-v-77aecf0c] {
+.cover {
     filter: blur(1px) sepia(60%) brightness(80%);
     border-radius: 0 10px 10px 0 !important;
     transition: transform 5s linear;
     position: static;
-    left:-3.8px !important;
+    left:-3.5px !important;
     height:77px;
     width:57px;
 }
-.cover:hover[data-v-77aecf0c] {
+.cover:hover {
     transform:translateX(3.5px) !important;
     filter:none !important;
     position: relative;
