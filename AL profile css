@@ -198,14 +198,27 @@ div.activity-entry.activity-message:hover {
     transform: scale(1.01);
     transition:0.5s ;  
 }
-div.activity-entry.activity-manga_list:hover {
+/*activity-entry.activity-manga_list:hover {
     transform: rotate(1deg);
-    transition:0.5s ;
+    transition:0.5s linear;
+    .cover[data-v-77aecf0c] {
+        transform:translateX(3.5px) !important;
+        filter:none !important;
+        position: relative;
+        width:60.5px;
+    }
 }
-div.activity-entry.activity-anime_list:hover {
+.activity-entry.activity-anime_list:hover {
     transform: rotate(1deg);
-    transition:0.5s ;
-}
+    transition:0.5s linear;
+    .cover[data-v-77aecf0c] {
+        transform:translateX(3.5px) !important;
+        filter:none !important;
+        position: relative;
+        width:60.5px;
+    }
+}*/
+c
 
 div.list.small {
     border-bottom: solid 4px rgba(98,168,0,0.55); 
@@ -408,8 +421,8 @@ div.el-dropdown[data-v-09492909]:hover {
     transition:1.3s;
 }
 
-/* Anime/manga displaying rounded corners, part 2 */
-.cover {
+/* Anime/manga covers in (right) feed displaying rounded corners, part 2 */
+.cover[data-v-77aecf0c] {
     filter: blur(1px) sepia(60%) brightness(80%);
     border-radius: 0 10px 10px 0 !important;
     transition: transform 5s linear;
@@ -418,13 +431,13 @@ div.el-dropdown[data-v-09492909]:hover {
     height:77px;
     width:57px;
 }
-.cover:hover {
+/*.cover[data-v-77aecf0c]:hover {
     transform:translateX(3.5px) !important;
     filter:none !important;
     position: relative;
     width:60.5px;
     transition: 0.3s linear !important;
-}
+}*/
 
 .list-stats {
     border-radius: 0 20px 20px 0 !important;
@@ -610,22 +623,19 @@ html {
     max-height:none !important; 
 } 
 .link.router-link-exact-active.router-link-active[data-v-1cc2919e] {
-    border-bottom: solid 4px #5ab55a;
-    border-top: solid 4px #5ab55a;
-    border-right: solid 4px #5ab55a;
-    border-left: solid 4px #5ab55a;
+    border: solid 4px #5ab55a;
     font-weight:bold;
     color: #31ce34;
 }
 .link.router-link-exact-active.router-link-active[data-v-1cc2919e]:hover {
     transform:scale(1.05);
-    transition0.2s;
+    transition: transform 0.2s ease-in-out;
 }
 a[data-v-1cc2919e]:hover {
     border-left: solid 4px rgba(0,206,3,0.8);
     border-right: solid 4px rgba(0,206,3,0.8);
     color: #31ce34;
-    transition: 0.3s;
+    transition: .3s ease-in-out;
 }
 
 .follow-card {
@@ -662,23 +672,19 @@ h1.name {
     margin-top: 80px;
     margin-bottom: 10px
 }
-.banner[data-v-1cc2919e]:hover {
-    transform: rotate(1deg) !important;
-    transition: 1.7s;
-}
-div.name-wrapper:hover {
-    transform: rotate(4deg) !important;
+.name-wrapper:hover {
+    transform: rotate(5deg) !important;
     transition: 1.2s;
 }
-div.mod-badge-wrap.follower-badge:hover {
-    transform: rotate(4deg) !important;
+.mod-badge-wrap.follower-badge:hover {
+    transform: rotate(5deg) !important;
     transition: 1.2s;
 }
-div.nav-btn:hover {
-    transform: rotate(4deg) !important;
+.nav-btn:hover {
+    transform: rotate(5deg) !important;
     transition: 1.2s;
 }
-div.dropdown.el-dropdown:hover {
+.dropdown.el-dropdown:hover {
     transform: scale(1.4) !important;
     transition: 1.2s;
 }
