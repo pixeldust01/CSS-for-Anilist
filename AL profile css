@@ -198,27 +198,26 @@ div.activity-entry.activity-message:hover {
     transform: scale(1.01);
     transition:0.5s ;  
 }
-/*activity-entry.activity-manga_list:hover {
+.activity-entry.activity-manga_list:hover {
     transform: rotate(1deg);
     transition:0.5s linear;
-    .cover[data-v-77aecf0c] {
+    /*cover[data-v-77aecf0c] {
         transform:translateX(3.5px) !important;
         filter:none !important;
         position: relative;
         width:60.5px;
-    }
+    }*/
 }
 .activity-entry.activity-anime_list:hover {
     transform: rotate(1deg);
     transition:0.5s linear;
-    .cover[data-v-77aecf0c] {
+    /*cover[data-v-77aecf0c] {
         transform:translateX(3.5px) !important;
         filter:none !important;
         position: relative;
         width:60.5px;
-    }
-}*/
-c
+    }*/
+}
 
 div.list.small {
     border-bottom: solid 4px rgba(98,168,0,0.55); 
@@ -423,11 +422,11 @@ div.el-dropdown[data-v-09492909]:hover {
 
 /* Anime/manga covers in (right) feed displaying rounded corners, part 2 */
 .cover[data-v-77aecf0c] {
-    filter: blur(1px) sepia(60%) brightness(80%);
+    /*filter: blur(1px) sepia(60%) brightness(80%);
+    left:-3.5px !important;*/
     border-radius: 0 10px 10px 0 !important;
     transition: transform 5s linear;
     position: static;
-    left:-3.5px !important;
     height:77px;
     width:57px;
 }
@@ -673,15 +672,15 @@ h1.name {
     margin-bottom: 10px
 }
 .name-wrapper:hover {
-    transform: rotate(5deg) !important;
+    transform: rotate(3deg) !important;
     transition: 1.2s;
 }
 .mod-badge-wrap.follower-badge:hover {
-    transform: rotate(5deg) !important;
+    transform: rotate(3deg) !important;
     transition: 1.2s;
 }
 .nav-btn:hover {
-    transform: rotate(5deg) !important;
+    transform: rotate(3deg) !important;
     transition: 1.2s;
 }
 .dropdown.el-dropdown:hover {
