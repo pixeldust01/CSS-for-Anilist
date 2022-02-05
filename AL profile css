@@ -233,10 +233,11 @@ div.list.small {
  
 /* favourites section hover */
 .favourite:hover {
+    transform: scale(1.05);
     filter:none !important;
     border-bottom: solid 3.5px rgba(43,170,1);
     position: relative;
-    transition: 0.3s linear !important;
+    transition: 0.25s !important;
     transform-style: inherit;
 }
 
