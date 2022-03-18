@@ -354,12 +354,12 @@ div.genre-overview.content-wrap:hover {
     color:#03c04a !important;
 }
 
-.section-header[data-v-09492909] {
+.section-header[data-v-eb51fd0e] {
   font-family: gabriola, noto, trebuchet ms !important;
   font-size: 25px;
   color: rgba(255,255,240,0.8); 
 }
-.section-header[data-v-09492909]::before {
+.section-header[data-v-eb51fd0e]::before {
   transition: transform .7s ease-in-out infinite;
   visibility: visible;
   font-family: gabriola, noto, trebuchet ms !important;
@@ -411,13 +411,13 @@ div.genre-overview.content-wrap:hover {
     transition: 0.2s;
 }
 
-li.el-dropdown-menu__item[data-v-eb51fd0e] /*[data-v-09492909]*/ {el
+li.el-dropdown-menu__item[data-v-eb51fd0e] {el
     font-family: trebuchet ms !important;
     font-weight: bold !important;
-    font-size: 20px !important;
+    font-size: 18px !important;
     margin-right:none;
 }
-div.el-dropdown[data-v-eb51fd0e]/*[data-v-09492909]*/:hover {
+div.el-dropdown[data-v-eb51fd0e]:hover {
     transform:scale(1.05); 
     transition:1.3s;
 }
