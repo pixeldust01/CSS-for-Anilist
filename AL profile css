@@ -411,12 +411,13 @@ div.genre-overview.content-wrap:hover {
     transition: 0.2s;
 }
 
-li.el-dropdown-menu__item[data-v-09492909] {
+li.el-dropdown-menu__item[data-v-eb51fd0e] /*[data-v-09492909]*/ {el
     font-family: trebuchet ms !important;
-    font-size: 14px !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
     margin-right:none;
 }
-div.el-dropdown[data-v-09492909]:hover {
+div.el-dropdown[data-v-eb51fd0e]/*[data-v-09492909]*/:hover {
     transform:scale(1.05); 
     transition:1.3s;
 }
