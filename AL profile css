@@ -25,7 +25,7 @@ h5 {
    font-size: 13px !important;
 }
 
-/* Cursor */
+/* Cursor  */
 * {
   cursor: url(https://i.imgur.com/cn2zbB2.png), auto;
 }
