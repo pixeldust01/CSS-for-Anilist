@@ -33,8 +33,9 @@ I occasionally listen to K-pop, and love the K-pop band called _ASTRO_.
 ###⁘ ___<a>`Quick tips`</a>___ ⁘
 (some I discovered myself, [others](https://anilist.co/forum/thread/6125))</center>
 >⁕ Hover over a user's pfp to see the date when they joined AL
-⁕ You can adjust the length of a horizontal line by adding the code:
+⁕ Use this code to add a horizontal line with length of your liking:
 --> `" <hr width=xy%> "` ------- (insert length percentage instead of 'xy')
+⁕ You can turn off needless notifications in: `Notifications < Settings`
 ⁕ 
 
 <hr width=40%> <center>
