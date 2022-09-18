@@ -33,10 +33,11 @@ I occasionally listen to K-pop, and love the K-pop band called _ASTRO_.
 ⁕ [Why you should think again before judging Guilty Crown (thread)](https://anilist.co/activity/240993179) 
 
 <center><hr width=40%>
-###⁘ ___<a>`Quick tips`</a>___ (some I discovered myself, [others](https://anilist.co/forum/thread/6125)) ⁘</center>
+###⁘ ___<a>`Quick tips`</a>___ ⁘
+(some I discovered myself, [others](https://anilist.co/forum/thread/6125))</center>
 >⁕ Hover over a user's pfp to see the date when they joined AL
-⁕ You can adjust the length of a horizontal line by adding the code
---> `" <hr width=xy%> "` ------- (insert length percentage as 'xy')
+⁕ You can adjust the length of a horizontal line by adding the code:
+--> `" <hr width=xy%> "` ------- (insert length percentage instead of 'xy')
 ⁕ 
 
 <hr width=40%> <center>
