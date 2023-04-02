@@ -1,0 +1,105 @@
+p {
+    font-family: Trebuchet MS;
+}
+
+h1 {
+   font-family: cambria !important;
+   font-weight: bold;
+}
+h2 { 
+   font-family: cambria !important;
+}
+h3 {
+   font-family: cambria !important;
+}
+h4 {
+   font-family: cambria !important;
+}
+h5 {
+   font-family: cambria !important;
+}
+
+/*----------------------*/
+
+h1[data-v-1cc2919e] {
+   font-family: fantasy !important;
+   font-size: 25px;
+   font-weight:bold;
+}
+a[data-v-1cc2919e] {
+   font-family: garamond !important;
+}
+
+.text .header[data-v-04d66030] {
+   font-family: fantasy;
+   display: flex;
+   align-items: center;
+}
+
+/*------------------------*/
+
+.section-header[data-v-b79eb0f0] {
+    font-family: trebuchet ms !important;
+}
+.section-header[data-v-63cd3b41] {
+    font-family: trebuchet ms !important;
+}
+.section-header[data-v-ddf96a3c] {
+    font-family: trebuchet ms !important;
+}
+.section-header[data-v-5c30286e] {
+    font-family: trebuchet ms !important;
+}
+
+ /*-------------------*/
+
+.name[data-v-63cd3b41] {
+    font-family: courier new;
+    font-weight: bold;
+}
+.amount[data-v-63cd3b41] {
+    font-family: courier new;
+    text-align: center !important;
+}
+
+/*--------------------------*/
+
+.section-header[data-v-eb51fd0e] {
+   font-family: trebuchet ms !important;
+}
+.section-header[data-v-eb51fd0e]::after {
+   transition: transform 0.7s ease-in-out infinite;
+   visibility: visible;
+   font-family: trebuchet ms !important;
+   content: "   (✿ﾟ▽ﾟ)ノ ";
+}
+
+/*-------------------------*/
+
+.wrap, .reply {
+    font-family: trebuchet ms;
+    border-radius: 0 20px 20px 0 !important;
+}
+
+/*---------------------*/
+
+li.el-dropdown-menu__item[data-v-eb51fd0e] {el
+    font-family: trebuchet ms !important;
+    font-weight: bold !important;
+    margin-right: none;
+}
+
+/*-------------------------*/
+
+.filter-group {
+    font-family: trebuchet ms !important;
+    font-weight:bold;
+}
+.group-header[data-v-e4963b98] {
+    font-family: trebuchet ms !important;
+    font-weight:bold;
+}
+.group-header[data-v-170179fc] {
+    font-family: trebuchet ms !important;
+    font-weight:bold;
+}
