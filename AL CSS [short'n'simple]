@@ -30,10 +30,10 @@ a[data-v-1cc2919e] {
    font-family: garamond !important;
 }
 
-.text .header[data-v-04d66030] {
-   font-family: fantasy;
+a.name.router-link-exact-active.router-link-active {
+   font-family: fantasy !important;
    display: flex;
-   align-items: center;
+   /*align-items: center;*/
 }
 
 /*------------------------*/
@@ -54,12 +54,12 @@ a[data-v-1cc2919e] {
  /*-------------------*/
 
 .name[data-v-63cd3b41] {
-    font-family: courier new;
-    font-weight: bold;
+    font-family: trebuchet ms;
 }
 .amount[data-v-63cd3b41] {
     font-family: courier new;
-    text-align: center !important;
+    font-weight: bold;
+    /*text-align: center !important;*/
 }
 
 /*--------------------------*/
