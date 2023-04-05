@@ -24,16 +24,16 @@ h5 {
 h1[data-v-1cc2919e] {
    font-family: fantasy !important;
    font-size: 25px;
-   font-weight:bold;
+   font-weight: bold;
 }
 a[data-v-1cc2919e] {
    font-family: garamond !important;
+   font-weight: bold !important;
 }
 
 a.name.router-link-exact-active.router-link-active {
    font-family: fantasy !important;
-   /*display: flex;
-   /*align-items: center;*/
+   font-weight: bold;
 }
 
 /*------------------------*/
