@@ -32,7 +32,7 @@ a[data-v-1cc2919e] {
 
 a.name.router-link-exact-active.router-link-active {
    font-family: fantasy !important;
-   display: flex;
+   /*display: flex;
    /*align-items: center;*/
 }
 
