@@ -22,7 +22,7 @@ h5 {
 /*----------------------*/
 
 h1[data-v-1cc2919e] {
-   font-family: fantasy, cursive, trebuchet ms !important;
+   font-family: fantasy, trebuchet ms !important;
    font-size: 25px;
    font-weight: bold;
 }
@@ -32,7 +32,7 @@ a[data-v-1cc2919e] {
 }
 
 a.name.router-link-exact-active.router-link-active {
-   font-family: fantasy, cursive, trebuchet ms !important;
+   font-family: fantasy, trebuchet ms !important;
    font-weight: bold;
 }
 
