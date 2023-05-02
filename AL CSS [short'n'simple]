@@ -3,20 +3,20 @@ p {
 }
 
 h1 {
-   font-family: cambria !important;
+   font-family: cambria, trebuchet ms !important;
    font-weight: bold;
 }
 h2 { 
-   font-family: cambria !important;
+   font-family: cambria, trebuchet ms !important;
 }
 h3 {
-   font-family: cambria !important;
+   font-family: cambria, trebuchet ms !important;
 }
 h4 {
-   font-family: cambria !important;
+   font-family: cambria, trebuchet ms !important;
 }
 h5 {
-   font-family: cambria !important;
+   font-family: cambria, trebuchet ms !important;
 }
 
 /*----------------------*/
@@ -27,7 +27,7 @@ h1[data-v-1cc2919e] {
    font-weight: bold;
 }
 a[data-v-1cc2919e] {
-   font-family: garamond !important;
+   font-family: garamond, trebuchet ms !important;
    font-weight: bold !important;
 }
 
@@ -57,7 +57,7 @@ a.name.router-link-exact-active.router-link-active {
     font-family: trebuchet ms;
 }
 .amount[data-v-63cd3b41] {
-    font-family: courier new;
+    font-family: courier new, trebuchet ms;
     font-weight: bold;
     /*text-align: center !important;*/
 }
@@ -70,8 +70,8 @@ a.name.router-link-exact-active.router-link-active {
 .section-header[data-v-eb51fd0e]::after {
    transition: transform 0.7s ease-in-out infinite;
    visibility: visible;
-   font-family: trebuchet ms !important;
-   content: "   (✿ﾟ▽ﾟ)ノ ";
+   font-weight: bold;
+   content: "   (✿ﾟ▽ﾟ)ノ " !important;
 }
 
 /*-------------------------*/
