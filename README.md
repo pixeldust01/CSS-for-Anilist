@@ -1,7 +1,7 @@
 # AniList Profile CSS Collection
 
 ## Overview
-This repository contains a collection of custom CSS styles that I created and used to personalize my AniList profile.
+This repository contains a collection of custom CSS styles that I experimented with and used to personalize my AniList profile.
 
 The goal of these styles was to experiment with UI design, visual aesthetics, and CSS customization while enhancing the look and feel of my profile.
 
